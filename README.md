@@ -1,2 +1,2 @@
 # Projetos-
-Neste repositório contem projetos com o propósito de colocar em prática tecnologias como HTML, CSS, JavaScript, Bootstrap e banco de dados.
+Neste repositório contém projetos com o propósito de colocar em prática o uso de tecnologias como HTML, CSS, JavaScript, Bootstrap, PHP e banco de dados.
