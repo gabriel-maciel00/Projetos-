@@ -1,0 +1,248 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color:#2B2C2C ;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 85%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.logo{
+    width:50px;
+    margin-left:70px;
+    color:#FBD214;
+    font-size: 45px;
+    
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    text-align: right; 
+}
+
+
+
+li{
+    
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px; 
+}
+.nav-link{
+    cursor:pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color:#FBD214;
+    
+}
+
+
+section{
+    display: flex;
+}
+
+
+.texto{
+    padding: 30px;
+    font-size: 30px;
+    
+    
+}
+.texto h3 {
+    color:#b7b7b7;
+    font-weight: 90;
+    font-size: 25px;
+    
+    
+}
+
+.imagem{
+    transform: translateX(100px);
+}
+.foto{
+    width: 50%;
+}
+
+.botao{
+    width: 200px;
+    height:50px; 
+    border: none;
+    background-color:#FEB633;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 20px;
+}
+.botao:hover{
+    color:#FEB633;
+    background-color:#2B2C2C;
+    border: 1px solid #FEB633;
+    transition: 0.25s;
+}
+
+.jobs{
+    margin-top: 50px;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    
+    
+   
+    max-width: 1200px;
+}
+.desc{
+    width: 100%;
+
+}
+
+.sobre h3 {
+    color:white;
+    font-weight: 90;
+    font-size: 25px;
+   
+    
+}
+.estagio{
+    color:#b7b7b7;
+}
+.img1{
+    margin-top: -30px;
+}
+.imgs{
+    margin-top: 50px;
+}
+.projetos{
+    display: flex;
+    width: 85%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.titulo_proj{
+    margin-top: 50px;
+    
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+}
+.projetos{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.controller-fotos{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+   
+}
+.tituloSAH {
+margin: auto;
+padding: 20px;
+color:white;
+font-weight: 90;
+font-size: 25px;
+border: 1px solid #FEB633;
+
+}
+.vid{
+    width: 100%;
+}
+
+.texto-controller{
+ margin-left: 60px;
+ width: 40%;
+ padding: 40px;
+}
+.texto-controller p {
+    color:white;
+    font-weight: 90;
+    font-size: 25px;
+  
+}
+.bt{
+    margin: auto;
+    margin-top: 150px;
+}
+.left{
+    transition: 0.5s;
+    transform: translateX(-130px);
+}
+.left:hover{
+    transform: translateX(0);
+}
+.rigth{
+    transition: 0.5s;
+    transform: translateX(180px);
+}
+.rigth:hover{
+    transform: translateX(60px);
+}
+
+
+
+
+
+@media (max-width:780px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        overflow:auto ;
+
+    }
+    .sobre{
+       flex-direction: column;
+       width: 100%;
+        
+    }
+    .desc{
+        width: 100%;
+    }
+
+
+
+   
+}
+
